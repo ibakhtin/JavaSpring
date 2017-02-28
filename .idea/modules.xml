@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaByHerbertSchildt/Chapter02/Chapter02.iml" filepath="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter02/Chapter02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaByHerbertSchildt/Chapter03/Chapter03.iml" filepath="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter03/Chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThinkingInJavaByBruceEckel/InitializationAndCleanup/InitializationAndCleanup.iml" filepath="$PROJECT_DIR$/ThinkingInJavaByBruceEckel/InitializationAndCleanup/InitializationAndCleanup.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaByHerbertSchildt/JavaByHerbertSchildt.iml" filepath="$PROJECT_DIR$/JavaByHerbertSchildt/JavaByHerbertSchildt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThinkingInJavaByBruceEckel/ThinkingInJavaByBruceEckel.iml" filepath="$PROJECT_DIR$/ThinkingInJavaByBruceEckel/ThinkingInJavaByBruceEckel.iml" />
     </modules>
   </component>
 </project>
