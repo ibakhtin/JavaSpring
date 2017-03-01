@@ -1,6 +1,9 @@
 /**
  * Created by ibakhtin on 01.03.17.
  */
+
+// Demonstrate casts
+
 public class Conversion {
     public static void main(String[] args) {
         byte b;
