@@ -1,6 +1,9 @@
 /**
  * Created by ibakhtin on 01.03.17.
  */
+
+// Manually allocate differing size second dimensions.
+
 public class TwoDAgain {
     public static void main(String[] args) {
         int[][] twoD = new int[4][];
