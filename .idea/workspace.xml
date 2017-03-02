@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27478d51-8a30-4ea9-ae75-d741eed8d90b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/BitLogic.java" afterPath="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/BitLogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/ByteShift.java" afterPath="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/ByteShift.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitLogic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BitLogic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/BitLogic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteShift.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/ByteShift.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/IncDec.java" />
         <option value="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/NegativeIntegers.java" />
         <option value="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/BitLogic.java" />
+        <option value="$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/ByteShift.java" />
       </list>
     </option>
   </component>
@@ -219,22 +230,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BitLogic">
-    <configuration default="false" name="Modulus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Modulus" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chapter04" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ByteShift">
     <configuration default="false" name="OpEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="OpEquals" />
@@ -283,6 +279,21 @@
     <configuration default="false" name="BitLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BitLogic" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chapter04" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ByteShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ByteShift" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -500,19 +511,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Modulus" />
-      <item index="1" class="java.lang.String" itemvalue="Application.OpEquals" />
-      <item index="2" class="java.lang.String" itemvalue="Application.IncDec" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NegativeIntegers" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BitLogic" />
+      <item index="0" class="java.lang.String" itemvalue="Application.OpEquals" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IncDec" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NegativeIntegers" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BitLogic" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ByteShift" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BitLogic" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NegativeIntegers" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IncDec" />
-        <item index="3" class="java.lang.String" itemvalue="Application.OpEquals" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Modulus" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ByteShift" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BitLogic" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NegativeIntegers" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IncDec" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OpEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -852,6 +863,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaByHerbertSchildt/Chapter04/src/ByteShift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
