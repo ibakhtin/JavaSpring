@@ -54,42 +54,42 @@ public class PrimitiveOverloading {
     }
 
     void testByte() {
-        byte x = 'x';
+        byte x = 0;
         System.out.print("byte: ");
         f1(x); f2(x); f3(x); f4(x); f5(x); f6(x); f7(x);
         System.out.println();
     }
 
     void testShort() {
-        short x = 'x';
+        short x = 0;
         System.out.print("short: ");
         f1(x); f2(x); f3(x); f4(x); f5(x); f6(x); f7(x);
         System.out.println();
     }
 
     void testInt() {
-        int x = 'x';
+        int x = 0;
         System.out.print("int: ");
         f1(x); f2(x); f3(x); f4(x); f5(x); f6(x); f7(x);
         System.out.println();
     }
 
     void testLong() {
-        long x = 'x';
+        long x = 0;
         System.out.print("long: ");
         f1(x); f2(x); f3(x); f4(x); f5(x); f6(x); f7(x);
         System.out.println();
     }
 
     void testFloat() {
-        float x = 'x';
+        float x = 0;
         System.out.print("float: ");
         f1(x); f2(x); f3(x); f4(x); f5(x); f6(x); f7(x);
         System.out.println();
     }
 
     void testDouble() {
-        double x = 'x';
+        double x = 0;
         System.out.print("double: ");
         f1(x); f2(x); f3(x); f4(x); f5(x); f6(x); f7(x);
         System.out.println();
