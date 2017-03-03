@@ -4,6 +4,7 @@
 
 // This program contains an error.
 
+/*
 public class BreakErr {
     public static void main(String[] args) {
 
@@ -17,3 +18,4 @@ public class BreakErr {
         }
     }
 }
+*/
