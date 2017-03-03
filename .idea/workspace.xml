@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise02.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exercise02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/Exercise02.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -48,6 +48,19 @@
               <folding>
                 <element signature="e#161#162#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercise03.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/Exercise03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,6 +133,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/DefaultConstructor.java" />
         <option value="$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/Exercise01.java" />
         <option value="$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/Exercise02.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/Exercise03.java" />
       </list>
     </option>
   </component>
@@ -225,22 +239,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Exercise02">
-    <configuration default="false" name="PrimitiveOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PrimitiveOverloading" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJavaByBruceEckel" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise03">
     <configuration default="false" name="Demotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Demotion" />
@@ -289,6 +288,21 @@
     <configuration default="false" name="Exercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Exercise02" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJavaByBruceEckel" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercise03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Exercise03" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -506,19 +520,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PrimitiveOverloading" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Demotion" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DefaultConstructor" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Exercise01" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Exercise02" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Demotion" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DefaultConstructor" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Exercise01" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Exercise02" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Exercise03" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Exercise02" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Exercise01" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DefaultConstructor" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Demotion" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PrimitiveOverloading" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Exercise03" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Exercise02" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Exercise01" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DefaultConstructor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demotion" />
       </list>
     </recent_temporary>
   </component>
@@ -965,6 +979,17 @@
           <folding>
             <element signature="e#161#162#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJavaByBruceEckel/src/Exercise03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
