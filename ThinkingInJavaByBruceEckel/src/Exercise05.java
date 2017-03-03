@@ -2,7 +2,7 @@
  * Created by ibakhtin on 03.03.17.
  */
 
-
+// Exercise 5
 
 class Dog {
     void bark(int i) {
@@ -18,7 +18,7 @@ public class Exercise05 {
     public static void main(String[] args) {
         Dog smallDog = new Dog();
         Dog bigDog = new Dog();
-        
+
         smallDog.bark(1);
         bigDog.bark(1.0);
     }
