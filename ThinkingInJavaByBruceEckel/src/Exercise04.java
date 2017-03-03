@@ -8,7 +8,7 @@ class SampleClass04 {
     SampleClass04() {
         System.out.println("Hello from default constructor.");
     }
-    
+
     SampleClass04(String string) {
         System.out.println(string);
     }
