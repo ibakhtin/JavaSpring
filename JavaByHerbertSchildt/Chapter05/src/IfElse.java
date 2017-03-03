@@ -1,6 +1,9 @@
 /**
  * Created by ibakhtin on 03.03.17.
  */
+
+// Demonstrate if-else-if statements.
+
 public class IfElse {
     public static void main(String[] args) {
         int month = 4; // April
