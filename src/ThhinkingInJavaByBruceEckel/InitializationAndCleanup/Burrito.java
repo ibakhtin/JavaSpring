@@ -3,6 +3,7 @@ package ThhinkingInJavaByBruceEckel.InitializationAndCleanup;
 /**
  * Created by ibakhtin on 05.03.17.
  */
+
 public class Burrito {
     Spiciness degree;
 
