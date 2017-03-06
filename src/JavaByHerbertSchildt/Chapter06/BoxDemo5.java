@@ -16,7 +16,7 @@ class Box5 {
         return width * height * depth;
     }
 
-    // sets dimentions of box
+    // sets dimensions of box
     void setDim(double w, double h, double d) {
         width = w;
         height = h;
