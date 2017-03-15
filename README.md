@@ -14,7 +14,6 @@
 - Packages and Interfaces
 - Exception Handling
 - Multithreaded Programming
-- Enumerations, Autoboxing, and
-- Annotations (Metadata)
+- Enumerations, Autoboxing, and Annotations (Metadata)
 - I/O, Applets, and Other Topics
 - Generics
