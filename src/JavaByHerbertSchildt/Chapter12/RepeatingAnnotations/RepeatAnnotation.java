@@ -37,6 +37,7 @@ public class RepeatAnnotation {
             Method method =
                     cl.getMethod("myMethod", String.class, int.class);
 
+
             Annotation annotation =
                     method.getAnnotation(MyRepeatedAnnotations.class);
 
