@@ -1,4 +1,4 @@
-package javabyherbertschildt.chapter15.lambdaexpressionsandexceptions;
+package javabyherbertschildt.chapter15.lambdaexpressionsandvariablecapture;
 
 /**
  * Created by ibakhtin on 18.03.17.
