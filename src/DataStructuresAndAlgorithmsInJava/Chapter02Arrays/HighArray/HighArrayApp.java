@@ -6,36 +6,51 @@ package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.HighArray;
 public class HighArrayApp {
     public static void main(String[] args) {
         int maxSize = 100;
-        HighArray highArray = new HighArray(maxSize);
+        HighArray highArrayA = new HighArray(maxSize);
+        HighArray highArrayB = new HighArray(maxSize);
 
-        highArray.insert(77);
-        highArray.insert(99);
-        highArray.insert(44);
-        highArray.insert(55);
-        highArray.insert(22);
-        highArray.insert(88);
-        highArray.insert(11);
-        highArray.insert(00);
-        highArray.insert(66);
-        highArray.insert(33);
+        highArrayA.add(77);
+        highArrayA.add(99);
+        highArrayA.add(44);
+        highArrayA.add(55);
+        highArrayA.add(22);
+        highArrayA.add(88);
+        highArrayA.add(11);
+        highArrayA.add(00);
+        highArrayA.add(66);
+        highArrayA.add(33);
 
-        highArray.display();
+        highArrayA.display();
 
-        long maxItem = highArray.getMax();
-        if (maxItem != -1)
-            System.out.println("Max item of highArray is " + maxItem);
 
         int searchKey = 35;
 
-        if (highArray.find(searchKey))
+        if (highArrayA.find(searchKey))
             System.out.println("Found " + searchKey);
         else
             System.out.println("Can't find " + searchKey);
 
-        highArray.delete(00);
-        highArray.delete(55);
-        highArray.delete(99);
+        highArrayA.delete(00);
+        highArrayA.delete(55);
 
-        highArray.display();
+        highArrayA.display();
+
+        // Programming Projects
+        System.out.println("\nProgramming Projects\n");
+
+        long maxItem = highArrayA.getMax();
+
+        if (maxItem != -1)
+            System.out.println("Max item of highArrayA is " + maxItem);
+
+        System.out.println("Array after remove max element " + highArrayA.removeMax());
+
+        highArrayA.display();
+
+        while (highArrayA.length() > 0) {
+            highArrayB.add(highArrayA.removeMax());
+        }
+
+        highArrayB.display();
     }
 }

@@ -4,7 +4,7 @@ package javabyherbertschildt.chapter16.stringbuffer;
  * Created by ibakhtin on 20.03.17.
  */
 
-// Demonstrate insert().
+// Demonstrate add().
 
 public class InsertDemo {
     public static void main(String[] args) {

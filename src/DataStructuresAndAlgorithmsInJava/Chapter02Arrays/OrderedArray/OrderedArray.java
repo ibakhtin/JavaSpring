@@ -70,4 +70,26 @@ public class OrderedArray {
 
         System.out.println();
     }
+
+    // Programming Projects binaryInsert();
+    // 1 2 3
+    public void binaryInsert(long value) {
+        int low = 0;
+        int high = nElems - 1;
+        int middle = 0;
+
+        while (low <= high) {
+            middle = (low + high) / 2;
+
+            if (value > a[middle]) {
+                low = middle + 1;
+                middle++;
+            }
+            else high = middle - 1;
+        }
+        for (int i = nElems; i > middle ; i--)
+            a[i] = a[i - 1];
+        a[middle] = value;
+        nElems++;
+    }
 }

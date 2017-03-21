@@ -25,7 +25,7 @@ public class HighArray {
         else return true;
     }
 
-    public void insert(long value) {
+    public void add(long value) {
         a[nElements] = value;
         nElements++;
     }
@@ -34,8 +34,7 @@ public class HighArray {
         int i;
 
         for (i = 0; i < nElements; i++)
-            if (a[i] == value)
-                break;
+            if (a[i] == value) break;
 
         if (i == nElements)
             return false;
@@ -58,10 +57,25 @@ public class HighArray {
     public long getMax() {
         long max = -1;
 
-        for (int i = 1; i < nElements; i++)
+        for (int i = 0; i < nElements; i++)
             if (a[i] > max)
                 max = a[i];
 
         return max;
+    }
+
+    // Programming Project 2.2
+    public long removeMax() {
+        long max = getMax();
+
+        if (max != -1)
+            delete(max);
+
+        return max;
+    }
+
+    // Programming Projects
+    public int length() {
+        return nElements;
     }
 }

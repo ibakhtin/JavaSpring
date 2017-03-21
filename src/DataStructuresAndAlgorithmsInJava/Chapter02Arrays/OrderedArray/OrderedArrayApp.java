@@ -33,6 +33,12 @@ public class OrderedArrayApp {
         orderedArray.delete(99);
 
         orderedArray.display();
+
+        orderedArray.binaryInsert(99);
+        orderedArray.binaryInsert(00);
+        orderedArray.binaryInsert(55);
+
+        orderedArray.display();
     }
 
 }

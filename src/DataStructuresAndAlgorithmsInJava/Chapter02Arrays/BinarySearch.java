@@ -33,22 +33,18 @@ public class BinarySearch {
         while (low <= high) {
             int middle = (low + high) / 2;
 
-            if (array[middle] == key)
-                return middle;
+            if (array[middle] == key) return middle;
 
-            if (array[middle] > key)
-                high = middle - 1;
-
-            if (array[middle] < key)
-                low = middle + 1;
+            if (array[middle] > key) high = middle - 1;
+            else low = middle + 1;
         }
         return -1;
     }
 
     public static void main(String[] args) {
-        int[] ints = new int[1000000];
+        int[] ints = new int[10000000];
 
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 0; i < 10000000; i++) {
             ints[i] = i + 1;
         }
 
