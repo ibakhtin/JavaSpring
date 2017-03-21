@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays;
+package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.HighArray;
 
 /**
  * Created by ibakhtin on 14.03.17.
@@ -20,6 +20,10 @@ public class HighArrayApp {
         highArray.insert(33);
 
         highArray.display();
+
+        long maxItem = highArray.getMax();
+        if (maxItem != -1)
+            System.out.println("Max item of highArray is " + maxItem);
 
         int searchKey = 35;
 

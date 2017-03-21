@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays;
+package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.HighArray;
 
 /**
  * Created by ibakhtin on 14.03.17.
@@ -10,7 +10,6 @@ public class HighArray {
     private long[] a;
     private int nElements;
 
-    // constructor
     public HighArray(int max) {
         a = new long[max];
         nElements = 0;
@@ -22,10 +21,8 @@ public class HighArray {
         for (i = 0; i < nElements; i++)
             if (a[i] == searchKey)
                 break;
-        if (i == nElements)
-            return false;
-        else
-            return true;
+        if (i == nElements) return false;
+        else return true;
     }
 
     public void insert(long value) {
@@ -55,5 +52,16 @@ public class HighArray {
             System.out.print(a[i] + " ");
         }
         System.out.println();
+    }
+
+    // Programming Project 2.1
+    public long getMax() {
+        long max = -1;
+
+        for (int i = 1; i < nElements; i++)
+            if (a[i] > max)
+                max = a[i];
+
+        return max;
     }
 }

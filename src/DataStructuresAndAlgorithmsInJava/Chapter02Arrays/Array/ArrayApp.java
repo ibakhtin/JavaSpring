@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays;
+package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.Array;
 
 /**
  * Created by ibakhtin on 14.03.17.
