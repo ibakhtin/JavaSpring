@@ -41,13 +41,32 @@ public class BinarySearch {
         return -1;
     }
 
-    public static void main(String[] args) {
-        int[] ints = new int[10000000];
+    static int recursiveBinarySearch(int[] array, int key, int firstIndex, int lastIndex) {
+        int middleIndex = (firstIndex + lastIndex) / 2;
 
-        for (int i = 0; i < 10000000; i++) {
-            ints[i] = i + 1;
+        if (firstIndex > lastIndex)
+            return -1;
+        else if (key == array[middleIndex])
+            return middleIndex;
+        else if (key > array[middleIndex])
+            return recursiveBinarySearch(array, key, middleIndex + 1, lastIndex);
+        else
+            return recursiveBinarySearch(array, key, firstIndex, middleIndex - 1);
+    }
+
+    static int recursiveBinarySearch(int[] array, int key) {
+        return recursiveBinarySearch(array, key, 0, array.length);
+    }
+
+    public static void main(String[] args) {
+        int[] ints = new int[100000];
+
+        for (int i = 0; i < 100000; i++) {
+            ints[i] = i;
         }
 
-        System.out.println(ints[binarySearchTwo(ints, 9990)]);
+        System.out.println(ints[binarySearchTwo(ints, 90)]);
+        System.out.println(ints[recursiveBinarySearch(ints, 99)]);
+
     }
 }
