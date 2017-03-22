@@ -72,7 +72,7 @@ class SimpleArray {
         this.array[indexB] = temp;
     }
 
-    public SimpleArray sort() {
+    public SimpleArray selectSort() {
         for (int out = 0; out < this.counter; out++) {
 
             int min = out;
@@ -102,6 +102,6 @@ public class BubbleSortDemoTwo {
         for (int i = 0; i < 10; i++)
             simpleArray.add((long) (Math.random() * 90 + 10));
 
-        simpleArray.display().bubbleSort().display();
+        simpleArray.display().selectSort().display();
     }
 }
