@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.HighArray;
+package DataStructuresAndAlgorithmsInJava.Chapter02.HighArray;
 
 /**
  * Created by ibakhtin on 14.03.17.

@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.LowArray;
+package DataStructuresAndAlgorithmsInJava.Chapter02.LowArray;
 
 /**
  * Created by ibakhtin on 14.03.17.

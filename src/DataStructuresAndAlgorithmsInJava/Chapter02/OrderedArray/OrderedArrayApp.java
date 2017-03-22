@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays.OrderedArray;
+package DataStructuresAndAlgorithmsInJava.Chapter02.OrderedArray;
 
 /**
  * Created by ibakhtin on 20.03.17.

@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithmsInJava.Chapter02Arrays;
+package DataStructuresAndAlgorithmsInJava.Chapter02;
 
 /**
  * Created by ibakhtin on 20.03.17.
@@ -6,7 +6,7 @@ package DataStructuresAndAlgorithmsInJava.Chapter02Arrays;
 
 public class BinarySearch {
 
-    static int binarySearchOne(int[] ints, int searchKey) {
+    public static int binarySearchOne(int[] ints, int searchKey) {
         int lowerBound = 0;
         int upperBound = ints.length - 1;
         int currentIndex;
@@ -26,7 +26,7 @@ public class BinarySearch {
         }
     }
 
-    static int binarySearchTwo(int[] array, int key) {
+    public static int binarySearchTwo(int[] array, int key) {
         int low = 0;
         int high = array.length - 1;
 
@@ -41,20 +41,20 @@ public class BinarySearch {
         return -1;
     }
 
-    static int recursiveBinarySearch(int[] array, int key, int firstIndex, int lastIndex) {
-        int middleIndex = (firstIndex + lastIndex) / 2;
+    public static int recursiveBinarySearch(int[] array, int key, int first, int last) {
+        int middle = (first + last) / 2;
 
-        if (firstIndex > lastIndex)
+        if (first > last)
             return -1;
-        else if (key == array[middleIndex])
-            return middleIndex;
-        else if (key > array[middleIndex])
-            return recursiveBinarySearch(array, key, middleIndex + 1, lastIndex);
+        else if (key == array[middle])
+            return middle;
+        else if (key > array[middle])
+            return recursiveBinarySearch(array, key, middle + 1, last);
         else
-            return recursiveBinarySearch(array, key, firstIndex, middleIndex - 1);
+            return recursiveBinarySearch(array, key, first, middle - 1);
     }
 
-    static int recursiveBinarySearch(int[] array, int key) {
+    public static int recursiveBinarySearch(int[] array, int key) {
         return recursiveBinarySearch(array, key, 0, array.length);
     }
 
