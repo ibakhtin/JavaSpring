@@ -6,6 +6,7 @@ package DataStructuresAndAlgorithmsInJava.Chapter03;
 
 
 public class BubbleSortDemo {
+
     static <T extends Comparable<T>> void bubleSortOne(T[] array) {
         for (int i = array.length - 1; i > 1 ; i--) {
             for (int j = 0; j < i; j++) {
