@@ -86,6 +86,19 @@ class SimpleArray {
         return this;
     }
 
+    public SimpleArray insertSort() {
+        for (int outer = 1; outer < this.counter; outer++) {
+            long temp = this.array[outer];
+            int inner;
+
+            for (inner = outer; inner > 0 && array[inner - 1] > temp; inner--) {
+                array[inner] = array[inner - 1];
+            }
+            this.array[inner] = temp;
+        }
+        return this;
+    }
+
     public SimpleArray display() {
         for (int i = 0; i < this.counter; i++) {
             System.out.print(this.array[i] + " ");
@@ -97,11 +110,11 @@ class SimpleArray {
 
 public class BubbleSortDemoTwo {
     public static void main(String[] args) {
-        SimpleArray simpleArray = new SimpleArray(1000);
+        SimpleArray simpleArray = new SimpleArray(10000);
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 5000; i++)
             simpleArray.add((long) (Math.random() * 90 + 10));
 
-        simpleArray.display().selectSort().display();
+        simpleArray.display().insertSort().display();
     }
 }
