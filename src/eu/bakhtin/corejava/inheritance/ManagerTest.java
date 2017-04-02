@@ -1,14 +1,13 @@
 package eu.bakhtin.corejava.inheritance;
 
 /**
- * Created by ibakhtin on 31.03.17.
- * @version
+ * @version 1.0
  * @author Igor Bakhtin
  */
 public class ManagerTest {
     public static void main(String[] args) {
         Manager boss = new Manager("Carl Cracker", 80000, 1987, 12, 15);
-        boss.setBonus(50000);
+        boss.setBonus(5000);
 
         Employee[] staff = new Employee[3];
 
